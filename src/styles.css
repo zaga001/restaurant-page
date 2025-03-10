@@ -1,3 +1,33 @@
-h1 {
-    color: crimson;
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home, .menu, .about {
+    text-align: center;
+}
+
+img {
+    width: 700px;
+    height: auto;
+}
+
+#wine {
+    width: auto;
+    height: 400px;
+}
+
+body {
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
